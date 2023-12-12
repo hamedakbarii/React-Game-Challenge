@@ -29,7 +29,8 @@ const GameComponent: React.FC = () => {
           isSymmetrical ? "symmetrical" : "asymmetrical"
         }/${level}.svg`,
         choices: ["s", "n"],
-        prompt: "<p>Is this shape symmetrical?</p>",
+        prompt:
+          "<p>Is this shape symmetrical?</p><p>Press 's' for symmetrical or 'n' for nonsymmetrical</p>",
         trial_duration: 4000,
       });
 
