@@ -40,10 +40,7 @@ const GridComponent: React.FC = () => {
         <Grid container item key={rowIndex} justifyContent="center">
           {[...Array(4)].map((__, columnIndex) => (
             <Grid item key={columnIndex}>
-              <StyledCell elevation={3} color={currentColor}>
-                {/* Optionally, you can display the color value for debugging */}
-                {/* {currentColor} */}
-              </StyledCell>
+              <StyledCell elevation={3} color={currentColor}></StyledCell>
             </Grid>
           ))}
         </Grid>

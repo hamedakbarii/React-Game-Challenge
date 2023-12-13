@@ -21,7 +21,7 @@ const GameComponent: React.FC = () => {
     });
 
     for (let level = 1; level <= numLevels; level++) {
-      const isSymmetrical = Math.random() < 0.5; // Randomly choose symmetrical or asymmetrical
+      const isSymmetrical = Math.random() < 0.5;
 
       trials.push({
         type: imageKeyboardResponse,
